@@ -1,0 +1,55 @@
+/* You can use my.css to override or append your style */
+
+.header {
+    background: #16a085;
+}
+
+.header .build-id {
+    text-align: right;
+    vertical-align: middle;
+    font-size: 100%;
+    display: table-cell;
+    padding-right: 20px;
+}
+
+.header .build-id a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.sidebar {
+    width: 440px;
+}
+
+.content {
+    margin-left: 440px;
+}
+
+h1 {
+    border-bottom: 5px solid #ddd;
+    padding: 10px;
+}
+
+.page-toc-shrinked {
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    padding: 10px 0 0 8px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+}
+
+.page-toc-expanded {
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    padding: 5px 0 0 8px;
+    width: auto;
+    height: auto;
+    padding: 1em 2em .5em 1em;
+    z-index: 99;
+    opacity: 0.95;
+    overflow: auto;
+    display: none;
+}
